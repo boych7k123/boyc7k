@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../lab4_Бойчук/style/style.css"/>
+  <title>position</title>
+  </head>
+<body>
+  <style>
+  .item {
+    width: 100px;
+    height: 100px;
+     }
+     body {
+         height: 2000px;
+     }
+     .items {
+         position: relative;
+         background: #67d0d8;
+     }
+     .absolute {
+   background: #1486b8;
+   position: absolute;
+   right: 0;
+   background-image: url(./style/ball.jpg);
+     }
+ .static {
+   background: #eb3535;
+   position: static;
+   background-image: url(./style/ball.jpg);
+ }
+ .fixed {
+   background-color: #c72388;
+   position: fixed;
+   background-image: url(./style/ball.jpg);
+ }
+
+ .inherit {
+   background: #f1f52e;
+   background-image: url(./style/ball.jpg);
+   position: inherit;
+   left: 50px;
+ }
+ 
+     </style>
+     </head>
+     <div class="items">
+         <div class="item absolute"></div>
+         <div class="item static"></div>
+         <div class="item fixed"></div>
+         <div class="item inherit"></div>
+     </div>
+
+
+
+
+
+
